@@ -66,6 +66,13 @@ function RootLayoutNav() {
             headerTitle: "Details",
           }}
         />
+        <Stack.Screen
+          name="navigation"
+          options={{
+            presentation: "modal",
+            headerTitle: "Locate",
+          }}
+        />
       </Stack>
     </ThemeProvider>
   );
