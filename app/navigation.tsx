@@ -11,7 +11,7 @@ const Navigation = () => {
     <View
       style={{
         backgroundColor: "#fff",
-        height: hp("45.5%"),
+        height: hp("100%"),
         width: "100%",
       }}
     >

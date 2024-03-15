@@ -47,7 +47,7 @@ const notifications = () => {
           Notifications
         </Text>
         <View>
-          <Link href="/" asChild>
+          <Link href="/search" asChild>
             <Pressable>
               {({ pressed }) => (
                 <Image
@@ -103,10 +103,10 @@ const notifications = () => {
         <TouchableOpacity onPress={() => navigation.navigate("navigation")}>
           <CattleOutofBounds />
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("navigation")}>
           <BatteryLow />
         </TouchableOpacity>
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("navigation")}>
           <BatchOutofBounds />
         </TouchableOpacity>
       </View>
